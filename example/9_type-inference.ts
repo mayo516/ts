@@ -24,3 +24,7 @@ var detailItems: DetailedDropdown<number> = {
   description: "b",
   tag: "c",
 };
+
+//Best Common 타입
+let arr = [0, 1, null];
+//값들을 유니온타입으로 묶어나간다.
